@@ -10,7 +10,8 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 1f;
+        Paused = false;
+        PauseMenuCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,10 +19,14 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
+            Time.timeScale = 0f;
             if (!Paused)
             {
                 Stop();
+                Play();
+                Stop();
             }
+            else Play();
         }
     }
 
@@ -41,7 +46,8 @@ public class PauseMenu : MonoBehaviour
 
     public void MenuButton()
     {
-       
         SceneManager.LoadScene("Menu");
+        Paused = false;
+        PauseMenuCanvas.SetActive(false);
     }
 }

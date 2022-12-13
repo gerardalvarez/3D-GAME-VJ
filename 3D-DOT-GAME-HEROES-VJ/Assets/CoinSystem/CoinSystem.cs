@@ -31,5 +31,13 @@ public class CoinSystem : MonoBehaviour
             }
             Destroy(other.gameObject);
         }
+        if (other.tag == "Apple")
+        {
+            if (inventory != null)
+            {
+                inventory.ganarVida();
+            }
+            Destroy(other.gameObject);
+        }
     }
 }

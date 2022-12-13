@@ -14,6 +14,6 @@ public class RotateMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Target.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(new Vector3(0,0,0), Vector3.up, 20 * Time.deltaTime);
     }
 }

@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
 {
 
     public int NumberOfCoins { get; private set; }
+    private int vidas = 3;
 
     public UnityEvent<PlayerInventory> oncoinCollected;
 
@@ -26,5 +27,22 @@ public class PlayerInventory : MonoBehaviour
     {
         NumberOfCoins++;
         oncoinCollected.Invoke(this);
+    }
+
+    public void appleCollected() { 
+    
+        if (vidas<4) ++vidas;
+    
+    }
+    public void perderVida()
+    {
+        LifeSystem lifesystem = GetComponent<LifeSystem>();
+        lifesystem.takeDamage(1);
+    }
+
+    public void ganarVida()
+    {
+        LifeSystem lifesystem = GetComponent<LifeSystem>();
+        lifesystem.getLife();
     }
 }
