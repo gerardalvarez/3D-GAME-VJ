@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
+=======
+  m_Title: Project
+>>>>>>> masmorra
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +123,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 51
+=======
+  controlID: 136
+>>>>>>> masmorra
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +147,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
+    width: 1499
     height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
@@ -164,8 +172,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
-    height: 523
+    width: 1499
+    height: 607
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -187,8 +195,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 362
     height: 523
+=======
+    width: 306
+    height: 607
+>>>>>>> masmorra
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
@@ -211,13 +224,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 362
+    x: 306
     y: 0
+<<<<<<< HEAD
     width: 1104
     height: 523
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
+=======
+    width: 1193
+    height: 607
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 12}
+>>>>>>> masmorra
   m_Panes:
   - {fileID: 12}
   - {fileID: 14}
@@ -239,12 +260,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 523
     width: 1466
     height: 424
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
+=======
+    y: 607
+    width: 1499
+    height: 340
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+>>>>>>> masmorra
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
@@ -265,12 +295,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1466
+    x: 1499
     y: 0
-    width: 454
+    width: 421
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -296,10 +326,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 362
     y: 73
     width: 1102
     height: 502
+=======
+    x: 1672
+    y: -232
+    width: 1191
+    height: 586
+>>>>>>> masmorra
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -534,9 +571,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 364.98288, y: 724.89624, z: -203.47552}
     speed: 2
     m_Value: {x: 364.98288, y: 724.89624, z: -203.47552}
+=======
+    m_Target: {x: -29.595291, y: -344.49625, z: -60.989243}
+    speed: 2
+    m_Value: {x: -29.595291, y: -344.49625, z: -60.989243}
+>>>>>>> masmorra
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -583,6 +626,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.3263821, y: 0.25419718, z: -0.091618665, w: -0.90587753}
     speed: 2
     m_Value: {x: -0.3263577, y: 0.2541782, z: -0.09161182, w: -0.9058098}
@@ -590,6 +634,15 @@ MonoBehaviour:
     m_Target: 235.1565
     speed: 2
     m_Value: 235.1565
+=======
+    m_Target: {x: -0.31206214, y: -0.002613962, z: 0.00074668985, w: -0.9501899}
+    speed: 2
+    m_Value: {x: -0.31202298, y: -0.0026136339, z: 0.00074659614, w: -0.9500706}
+  m_Size:
+    m_Target: 520.6199
+    speed: 2
+    m_Value: 498.20084
+>>>>>>> masmorra
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -634,10 +687,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 73
     width: 361
     height: 502
+=======
+    x: 1366
+    y: -232
+    width: 305
+    height: 586
+>>>>>>> masmorra
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -645,9 +705,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 5e7a0100
       m_LastClickedID: 96862
       m_ExpandedIDs: e0fafdffa4fdfdffe200feff3c02feff6603feff1681feff3cdbfeff56ecfeffacecfeffe0edfeff0408ffff8819ffffe219ffff021affff6c23ffff6e31ffff3832ffff6233ffff1436ffff1636ffff5e36ffff0237ffff4437ffffee45fffff476fffffe76ffff6ef1ffff98f6ffffba63000050c200008ac20000d8c20000e2c200004ac300006ac3000074c300008ac30000e8c3000014c4000070c400007ac40000fccd00009cce0000b21b0100d21b01002620010046200100a2710100347201009e790100ca790100
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0a09ffff1009ffff5e80ffff9a9effff60e6ffffd2f7ffff1cfbffff
+>>>>>>> masmorra
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Apple
@@ -691,10 +757,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 362
     y: 73
     width: 1102
     height: 502
+=======
+    x: 1672
+    y: -232
+    width: 1191
+    height: 586
+>>>>>>> masmorra
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -741,23 +814,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1102
-      height: 481
-    m_Scale: {x: 0.4453704, y: 0.44537038}
-    m_Translation: {x: 551, y: 240.5}
+      width: 1191
+      height: 565
+    m_Scale: {x: 0.5231481, y: 0.5231481}
+    m_Translation: {x: 595.5, y: 282.49997}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1237.1725
+      x: -1138.3009
       y: -540
-      width: 2474.345
+      width: 2276.6018
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.44537038
-  m_LastWindowPixelSize: {x: 1102, y: 502}
+  m_defaultScale: 0.5231481
+  m_LastWindowPixelSize: {x: 1191, y: 586}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -783,10 +856,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 596
     width: 1465
     height: 403
+=======
+    x: 1366
+    y: 375
+    width: 1498
+    height: 319
+>>>>>>> masmorra
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -804,22 +884,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets
+>>>>>>> masmorra
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets
+>>>>>>> masmorra
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 7c640000
     m_LastClickedID: 25724
     m_ExpandedIDs: 00000000686400007464000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 865c0000
+    m_LastClickedID: 23686
+    m_ExpandedIDs: 00000000865c0000885c00008a5c00008c5c00008e5c0000ffffff7f
+>>>>>>> masmorra
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -847,7 +942,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000068640000
+=======
+    m_ExpandedIDs: 00000000865c0000885c00008a5c00008c5c00008e5c0000
+>>>>>>> masmorra
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -872,10 +971,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 5e7a0100
     m_LastClickedInstanceID: 96862
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f06b0000825b00003c6d000000000000
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000f06b0000825b00003c6d0000
+>>>>>>> masmorra
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -951,9 +1057,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1466
     y: 73
     width: 453
+=======
+    x: 2865
+    y: -232
+    width: 420
+>>>>>>> masmorra
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":118.2000732421875,"y":880.5,"z":0.0},"rotation":{"x":-0.16480204463005067,"y":0.05676151067018509,"z":-0.00953204371035099,"w":-0.9847229719161987},"size":105.27222442626953,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-29.595291137695314,"y":-344.4962463378906,"z":-60.98924255371094},"rotation":{"x":-0.31206214427948,"y":-0.0026139619294553997,"z":0.000746689853258431,"w":-0.9501898884773254},"size":520.619873046875,"orthographic":false}
+>>>>>>> masmorra

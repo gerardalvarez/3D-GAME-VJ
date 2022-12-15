@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'es' Physical Memory: 16309 MB
+=======
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 12188 MB
+>>>>>>> masmorra
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/Gerard/MIS DOCS/3D-VJ/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +23,15 @@ Logs/AssetImportWorker1.log
 64726
 Successfully changed project path to: C:/Users/Gerard/MIS DOCS/3D-VJ/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
 C:/Users/Gerard/MIS DOCS/3D-VJ/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
+=======
+C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51690
+Successfully changed project path to: C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
+C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
+>>>>>>> masmorra
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,6 +61,7 @@ C:/Users/Gerard/MIS DOCS/3D-VJ/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 71.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
@@ -59,15 +74,34 @@ Direct3D:
     Vendor:   ATI
     VRAM:     8146 MB
     Driver:   31.0.12029.10015
+=======
+Refreshing native plugins compatible for Editor in 177.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 920MX (ID=0x134f)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   22.21.13.8264
+>>>>>>> masmorra
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+>>>>>>> masmorra
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.008718 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -78,11 +112,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (568ms)
 		BeginReloadAssembly (73ms)
+=======
+Registered in 0.019356 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 178.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (111ms)
+>>>>>>> masmorra
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (396ms)
 			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -97,12 +144,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (120ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
+=======
+		EndReloadAssembly (967ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+>>>>>>> masmorra
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005547 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -149,6 +213,56 @@ Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (132.7 KB). Loaded Objects now: 3917.
 Memory consumption went from 132.7 MB to 132.6 MB.
 Total: 5.005600 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.139800 ms MarkObjects: 4.283600 ms  DeleteObjects: 0.113700 ms)
+=======
+Registered in 0.013919 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A492C2660 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1546ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (132.8 KB). Loaded Objects now: 3918.
+Memory consumption went from 135.0 MB to 134.9 MB.
+Total: 5.853200 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.372800 ms MarkObjects: 4.823800 ms  DeleteObjects: 0.138700 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,6 +276,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 268587.857290 seconds.
   path: Assets/VoxelLink.png
   artifactKey: Guid(8adfa0af6a7a68441bf8d45a4dabd06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -350,6 +465,108 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3984.
 Memory consumption went from 136.2 MB to 136.1 MB.
 Total: 2.981600 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.619300 ms  DeleteObjects: 0.093900 ms)
+=======
+  Time since last request: 793418.573245 seconds.
+  path: Assets/TerrainData_3c0fe69a-787e-47f8-8876-93b21880cee4.asset
+  artifactKey: Guid(f53e348e58d3111468a3ff4d2cd8528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3c0fe69a-787e-47f8-8876-93b21880cee4.asset using Guid(f53e348e58d3111468a3ff4d2cd8528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb51d7d9ca65cc440714a88c04a8b01') in 0.078064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.425620 seconds.
+  path: Assets/Decorations/wall_1.fbx
+  artifactKey: Guid(54fbb79261564fe449ad8776e49c0817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decorations/wall_1.fbx using Guid(54fbb79261564fe449ad8776e49c0817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30382133a702fd8ca015944771b3069') in 0.430953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.746625 seconds.
+  path: Assets/StoneFloorTexture/stone_floor_d.png
+  artifactKey: Guid(6450329bf1bc5314d894e25d73e26b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneFloorTexture/stone_floor_d.png using Guid(6450329bf1bc5314d894e25d73e26b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b947efc9cf843444334754113d635a6') in 0.091132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.435359 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga
+  artifactKey: Guid(2ad5769c41feb7749a077e020ed56acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga using Guid(2ad5769c41feb7749a077e020ed56acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e23051e6030d6a7a1dad20819099e') in 0.057609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga
+  artifactKey: Guid(1084372875829164882c05b7f7f0714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga using Guid(1084372875829164882c05b7f7f0714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4933350fe4e2c01dfd204a6ae9bbdade') in 0.046559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.427721 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab
+  artifactKey: Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab using Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3246672a43bb60f7c180fe1c57ee8a') in 0.079831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001276 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab
+  artifactKey: Guid(7c3ceb5b9a32b7a4a8d42d30223f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab using Guid(7c3ceb5b9a32b7a4a8d42d30223f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1fb54a0d08d81a926f5caf78e32efc') in 0.060525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002157 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab
+  artifactKey: Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab using Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69686aa46c6255c56fe150fe3f7a878e') in 0.196672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab
+  artifactKey: Guid(49a5f24a081cbbc44bd23d76c2869723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab using Guid(49a5f24a081cbbc44bd23d76c2869723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135d38e952362570e3c5df87bbea2afe') in 0.109362 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019137 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A44329DD0 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4467ms)
+		BeginReloadAssembly (518ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (251ms)
+		EndReloadAssembly (3610ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (154ms)
+			SetupLoadedEditorAssemblies (2252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (433ms)
+				ProcessInitializeOnLoadAttributes (1159ms)
+				ProcessInitializeOnLoadMethodAttributes (587ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3946.
+Memory consumption went from 138.3 MB to 138.1 MB.
+Total: 6.825700 ms (FindLiveObjects: 0.463000 ms CreateObjectMapping: 0.806100 ms MarkObjects: 5.431500 ms  DeleteObjects: 0.123300 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -363,6 +580,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 1512.184462 seconds.
   path: Assets/CoinSystem/coinmat.mat
   artifactKey: Guid(7bc894f18021d744fa2efa3e865179ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -470,6 +688,66 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.5 KB). Loaded Objects now: 4014.
 Memory consumption went from 136.3 MB to 136.2 MB.
 Total: 2.758500 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.387600 ms  DeleteObjects: 0.077600 ms)
+=======
+  Time since last request: 59.418233 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx
+  artifactKey: Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx using Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8c142e82c1d56e35de25b4149b4de5') in 1.242681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017126 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx
+  artifactKey: Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx using Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b0fd5e6cc2f30e99d052aa2592bf89') in 0.080140 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1913ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1504ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 3962.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 8.168300 ms (FindLiveObjects: 0.470300 ms CreateObjectMapping: 0.419900 ms MarkObjects: 7.139800 ms  DeleteObjects: 0.136700 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -484,6 +762,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005377 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -527,6 +806,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4029.
 Memory consumption went from 136.3 MB to 136.2 MB.
 Total: 2.537200 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.063100 ms  DeleteObjects: 0.077900 ms)
+=======
+Registered in 0.013741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2660ms)
+		BeginReloadAssembly (365ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2001ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (965ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3977.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 5.399500 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.491200 ms MarkObjects: 4.322400 ms  DeleteObjects: 0.137800 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -541,6 +867,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -584,6 +911,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.2 KB). Loaded Objects now: 4044.
 Memory consumption went from 136.3 MB to 136.2 MB.
 Total: 3.251500 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.804500 ms  DeleteObjects: 0.094600 ms)
+=======
+Registered in 0.018742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2063ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1571ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 3992.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 5.107100 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.285400 ms MarkObjects: 4.352400 ms  DeleteObjects: 0.103500 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -598,6 +972,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005614 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -641,6 +1016,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4059.
 Memory consumption went from 136.3 MB to 136.2 MB.
 Total: 2.584500 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.193100 ms  DeleteObjects: 0.107800 ms)
+=======
+Registered in 0.014070 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1931ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (981ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (623ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4007.
+Memory consumption went from 138.4 MB to 138.2 MB.
+Total: 6.104100 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 1.407600 ms MarkObjects: 4.092000 ms  DeleteObjects: 0.141200 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -655,6 +1077,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005255 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -698,6 +1121,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4074.
 Memory consumption went from 136.4 MB to 136.2 MB.
 Total: 2.383800 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.029400 ms  DeleteObjects: 0.063600 ms)
+=======
+Registered in 0.014691 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2896ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2319ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (713ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4022.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 3.955700 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.278900 ms MarkObjects: 3.189200 ms  DeleteObjects: 0.102400 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -712,6 +1182,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005580 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -755,6 +1226,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4089.
 Memory consumption went from 136.4 MB to 136.3 MB.
 Total: 2.553600 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.182300 ms  DeleteObjects: 0.062000 ms)
+=======
+Registered in 0.010182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1878ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1402ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (641ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4037.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 8.789900 ms (FindLiveObjects: 1.019900 ms CreateObjectMapping: 1.482300 ms MarkObjects: 6.142400 ms  DeleteObjects: 0.142100 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -769,15 +1287,25 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005500 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+=======
+Registered in 0.021087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+>>>>>>> masmorra
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.857 seconds
 Domain Reload Profiling:
 	ReloadAssembly (858ms)
@@ -869,6 +1397,42 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4119.
 Memory consumption went from 136.4 MB to 136.3 MB.
 Total: 2.527400 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.165000 ms  DeleteObjects: 0.071400 ms)
+=======
+- Completed reload, in  1.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1932ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4052.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 11.916800 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.426000 ms MarkObjects: 10.847000 ms  DeleteObjects: 0.156800 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -883,6 +1447,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006191 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -926,6 +1491,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4134.
 Memory consumption went from 136.4 MB to 136.3 MB.
 Total: 2.813800 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.311600 ms  DeleteObjects: 0.085700 ms)
+=======
+Registered in 0.010238 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2015ms)
+		BeginReloadAssembly (384ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (173ms)
+		EndReloadAssembly (1435ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4067.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 9.619800 ms (FindLiveObjects: 0.598700 ms CreateObjectMapping: 1.474700 ms MarkObjects: 7.434000 ms  DeleteObjects: 0.110500 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -940,6 +1552,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006114 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -983,6 +1596,53 @@ Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4149.
 Memory consumption went from 136.4 MB to 136.3 MB.
 Total: 2.736800 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.331500 ms  DeleteObjects: 0.071300 ms)
+=======
+Registered in 0.015042 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2587ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2004ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (971ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4082.
+Memory consumption went from 138.5 MB to 138.3 MB.
+Total: 5.545700 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.245100 ms MarkObjects: 4.772400 ms  DeleteObjects: 0.130300 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -995,6 +1655,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005415 seconds.
@@ -1154,6 +1815,61 @@ Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4196.
 Memory consumption went from 136.6 MB to 136.5 MB.
 Total: 2.297900 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.948200 ms  DeleteObjects: 0.069000 ms)
+=======
+Received Import Request.
+  Time since last request: 1641.093708 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat
+  artifactKey: Guid(2e701f9d6b8aa304c93f2af59c1ee5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat using Guid(2e701f9d6b8aa304c93f2af59c1ee5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dc3b8c28a636800619a9b28dd24791') in 0.203587 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4E24D0B0 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2060ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1619ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (724ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4130.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 12.176500 ms (FindLiveObjects: 0.903100 ms CreateObjectMapping: 0.365600 ms MarkObjects: 10.239500 ms  DeleteObjects: 0.666800 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1168,6 +1884,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -1211,6 +1928,53 @@ Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4211.
 Memory consumption went from 136.6 MB to 136.5 MB.
 Total: 2.488500 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.127700 ms  DeleteObjects: 0.064000 ms)
+=======
+Registered in 0.017942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2689ms)
+		BeginReloadAssembly (394ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.5 KB). Loaded Objects now: 4145.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 11.036300 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.373600 ms MarkObjects: 10.006300 ms  DeleteObjects: 0.140400 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1225,6 +1989,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005226 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gerard\MIS DOCS\3D-VJ\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -1268,6 +2033,53 @@ Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 4226.
 Memory consumption went from 136.6 MB to 136.5 MB.
 Total: 2.779400 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.344800 ms  DeleteObjects: 0.075200 ms)
+=======
+Registered in 0.014535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027A4DD36730 doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3426ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2821ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (792ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (372ms)
+				ProcessInitializeOnLoadAttributes (1014ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 4160.
+Memory consumption went from 138.7 MB to 138.6 MB.
+Total: 4.196400 ms (FindLiveObjects: 0.406500 ms CreateObjectMapping: 0.284300 ms MarkObjects: 3.380100 ms  DeleteObjects: 0.124200 ms)
+>>>>>>> masmorra
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1279,6 +2091,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -7592,3 +8405,5 @@ C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC32B80000), size: 1982464 (r
 
 A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
  * C:/Users/Gerard/AppData/Local/Temp/Unity/Editor/Crashes
+=======
+>>>>>>> masmorra
