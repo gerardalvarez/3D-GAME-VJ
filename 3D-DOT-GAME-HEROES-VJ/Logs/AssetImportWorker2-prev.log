@@ -15,7 +15,7 @@ C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61274
+62191
 Successfully changed project path to: C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
 C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/oriol/OneDrive/Documentos/3D-GAME-VJ/3D-DOT-GAME-HEROES-VJ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 333.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 133.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018873 seconds.
+Registered in 0.010702 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 197.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.916 seconds
+- Completed reload, in  0.790 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1917ms)
-		BeginReloadAssembly (276ms)
+	ReloadAssembly (791ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1206ms)
-			LoadAssemblies (264ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (678ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (198ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011661 seconds.
+Registered in 0.007309 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.025 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2027ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1592ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (820ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (568ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (559ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (132.7 KB). Loaded Objects now: 3926.
-Memory consumption went from 135.8 MB to 135.7 MB.
-Total: 8.467500 ms (FindLiveObjects: 0.524700 ms CreateObjectMapping: 0.443400 ms MarkObjects: 6.381100 ms  DeleteObjects: 1.115800 ms)
+Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (132.7 KB). Loaded Objects now: 3928.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 3.515700 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.304900 ms MarkObjects: 2.779300 ms  DeleteObjects: 0.102300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,62 +162,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4703.184829 seconds.
-  path: Assets/Sounds/38 Title.mp3
-  artifactKey: Guid(ad57cf5cce637ba45b76dae76a48e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/38 Title.mp3 using Guid(ad57cf5cce637ba45b76dae76a48e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f0bac4627f365aac6b85f63940694e') in 4.966748 seconds 
+  Time since last request: 382403.405545 seconds.
+  path: Assets/LowPolyRPGWeapons_Lite/Materials
+  artifactKey: Guid(fab849b7b7b918a4998fbabae64a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Materials using Guid(fab849b7b7b918a4998fbabae64a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5397ad507d8962047c02ed277c458474') in 0.019363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.184192 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(13d6054817c114e419dcf12372003d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(13d6054817c114e419dcf12372003d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee30ec3b78c6aabdc49d51ac1f166591') in 2.630261 seconds 
+  Time since last request: 0.075783 seconds.
+  path: Assets/LowPolyRPGWeapons_Lite/Materials/LowPolyRPGWeaponLite_BG.mat
+  artifactKey: Guid(3aa8c55f91287f04ba6aff861716f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Materials/LowPolyRPGWeaponLite_BG.mat using Guid(3aa8c55f91287f04ba6aff861716f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236709a9981b19ceb3e410194484fd4e') in 0.146620 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.049773 seconds.
+Registered in 0.017491 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.252 seconds
+- Completed reload, in  1.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5255ms)
-		BeginReloadAssembly (953ms)
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (190ms)
-		EndReloadAssembly (3494ms)
-			LoadAssemblies (746ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1628ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (1133ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (673ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (757ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3951.
-Memory consumption went from 138.8 MB to 138.7 MB.
-Total: 7.974500 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.390100 ms MarkObjects: 6.966500 ms  DeleteObjects: 0.135100 ms)
+Unloading 3429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (125.3 KB). Loaded Objects now: 3984.
+Memory consumption went from 138.9 MB to 138.7 MB.
+Total: 4.298900 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.215600 ms MarkObjects: 2.965500 ms  DeleteObjects: 0.808500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -231,520 +231,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 960.760997 seconds.
-  path: Assets/Sounds/temp
-  artifactKey: Guid(e7e6fea194e5e89438b72b930b29af25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp using Guid(e7e6fea194e5e89438b72b930b29af25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f302c3d1ec9dbda7fb24d69d9d6f859a') in 0.048081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes
-  artifactKey: Guid(b39ba15326687f441bf557fa1819b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes using Guid(b39ba15326687f441bf557fa1819b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bba22db9d1d5b613d8ec59128fe9a0') in 0.204793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.216543 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/334_swing_08.wav
-  artifactKey: Guid(6d0d42f1812eb384089d9a0145a88f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/334_swing_08.wav using Guid(6d0d42f1812eb384089d9a0145a88f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5a7d2fc3940e48636882d2fae0a87f') in 6.812888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272522 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/187_dungeon_item_get.wav
-  artifactKey: Guid(4329dc4cd75a8704dad078652c272b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/187_dungeon_item_get.wav using Guid(4329dc4cd75a8704dad078652c272b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c65f4cde24fa55a9c8410bce0b7e422') in 0.049548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044523 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/300_irem_jump.wav
-  artifactKey: Guid(cd2797b8628d9a649942b9edc1a059a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/300_irem_jump.wav using Guid(cd2797b8628d9a649942b9edc1a059a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a0631e5d9a53d5cd91b3866410f64') in 1.270642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019482 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/019_rolling_sword.wav
-  artifactKey: Guid(c3d1e008cdc800c40adf87b235e533cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/019_rolling_sword.wav using Guid(c3d1e008cdc800c40adf87b235e533cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434fab257110217179e9bc91f8c4041d') in 0.094080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/217_enemy_appear.wav
-  artifactKey: Guid(1212d0cbd27b8604799380321d3ae771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/217_enemy_appear.wav using Guid(1212d0cbd27b8604799380321d3ae771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf180996ea1c292920773bef4ea8e5b1') in 0.296286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/051_heal_hp.wav
-  artifactKey: Guid(8cf15b49fa0f08247b42acbca50cd72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/051_heal_hp.wav using Guid(8cf15b49fa0f08247b42acbca50cd72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c64c5935d4fb973f99843b5ff496da') in 0.189424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/014_dash.wav
-  artifactKey: Guid(eded2918dc8252f46a83c51b8b499793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/014_dash.wav using Guid(eded2918dc8252f46a83c51b8b499793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c71824c70d0ce4e53e78b84b417d56d') in 0.177148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/333_swing_07.wav
-  artifactKey: Guid(fca801df882db764b9d51856f16ccef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/333_swing_07.wav using Guid(fca801df882db764b9d51856f16ccef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cdea49889528598713b721a8a80dfc') in 0.181172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002326 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/052_heal_mp.wav
-  artifactKey: Guid(d62850aedd305c045be2a790903afde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/052_heal_mp.wav using Guid(d62850aedd305c045be2a790903afde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1dbe8d03de42f352e0ddf0ebf8cfa') in 0.205436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/339_swing_13.wav
-  artifactKey: Guid(ae5f3813331f71d40aa99d9e6dda656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/339_swing_13.wav using Guid(ae5f3813331f71d40aa99d9e6dda656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df28e3cc8460ed7f529fbd1cd6c1e5') in 0.233105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/086_boss_attack15.wav
-  artifactKey: Guid(cece467ee3a38584d9f4fd0866042dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/086_boss_attack15.wav using Guid(cece467ee3a38584d9f4fd0866042dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f372aaaa8d741e04fcf95e5d9ceabd7') in 0.159284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000644 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/089_boss_attack18.wav
-  artifactKey: Guid(52879a94cd80ff34a88a08784b5115eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/089_boss_attack18.wav using Guid(52879a94cd80ff34a88a08784b5115eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e488ab053dc4b1d8325d83c4b129c9') in 0.179970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001347 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/046_gold_get.wav
-  artifactKey: Guid(3fd3fa8bc485c1c4ca62415debcd9903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/046_gold_get.wav using Guid(3fd3fa8bc485c1c4ca62415debcd9903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668d2ca2927a1ce0f28fb948d026751') in 0.213962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/304_irem_key.wav
-  artifactKey: Guid(a394a73678aa27e49920c0f94d582777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/304_irem_key.wav using Guid(a394a73678aa27e49920c0f94d582777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adae575e4ac07e8e48f4de2ee91fd0dc') in 0.104349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/084_boss_attack13.wav
-  artifactKey: Guid(0d7a3a3d6e660e34f811248e3dface1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/084_boss_attack13.wav using Guid(0d7a3a3d6e660e34f811248e3dface1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0540730a4abefb0efdc984393c900989') in 0.079560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/305_irem_coin.wav
-  artifactKey: Guid(1e75a08a91f40a84b8b6d3c4d82bfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/305_irem_coin.wav using Guid(1e75a08a91f40a84b8b6d3c4d82bfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194100e5b50fb9756dccfc5bc7a2da9f') in 0.129905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/030_boomerang.wav
-  artifactKey: Guid(16c59369527dadb4baea9e731e876458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/030_boomerang.wav using Guid(16c59369527dadb4baea9e731e876458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861cc831aa6f325677a04f2ed62818dc') in 0.158323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/191_grass.wav
-  artifactKey: Guid(6ef4416bc9a6d0b4e8c952a98fb452eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/191_grass.wav using Guid(6ef4416bc9a6d0b4e8c952a98fb452eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b864d646e6d4967d9b68c763286f8de') in 0.147677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/338_swing_12.wav
-  artifactKey: Guid(220bc53af09c26a4281bc235277361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/338_swing_12.wav using Guid(220bc53af09c26a4281bc235277361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f84fd1f276a8bfda2c4f857b0e0e52') in 0.132108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/092_boss_attack21.wav
-  artifactKey: Guid(d37a23e45186d8447897bd2017acfd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/092_boss_attack21.wav using Guid(d37a23e45186d8447897bd2017acfd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f04c8d8095f7793d7546e017e33caca') in 0.164857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051909 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/075_boss_attack05.wav
-  artifactKey: Guid(a803162e797c7154cb9a67e9331260a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/075_boss_attack05.wav using Guid(a803162e797c7154cb9a67e9331260a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5b8c5d8e2ad7e6b00e484baee93c56') in 0.178558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/208_fighter.wav
-  artifactKey: Guid(0925018807c623643b2a58731b89f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/208_fighter.wav using Guid(0925018807c623643b2a58731b89f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa799976b383bbfa0f2a08deb086fcec') in 0.082745 seconds 
+  Time since last request: 772.977348 seconds.
+  path: Assets/LowPolyRPGWeapons_Lite/Prefabs/Arrow_01.prefab
+  artifactKey: Guid(45804eb2722b83845adbcf2d72da12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Prefabs/Arrow_01.prefab using Guid(45804eb2722b83845adbcf2d72da12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a62cfaf335f06cedc37e427963e8c44') in 0.201672 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000047 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/308_irem_dollar.wav
-  artifactKey: Guid(1d9831cc0c4ccd2429cb1c085131b52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/308_irem_dollar.wav using Guid(1d9831cc0c4ccd2429cb1c085131b52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12d173af1c80d32a4a3636da45dbd2f') in 0.144065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/076_boss_dead.wav
-  artifactKey: Guid(4427750407e47a0438d4f428f1145b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/076_boss_dead.wav using Guid(4427750407e47a0438d4f428f1145b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36abc7ce3513ab3e082e736a88d470c9') in 0.087966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/038_guard_success.wav
-  artifactKey: Guid(62173e29b7afe4a4087c6cf7d774be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/038_guard_success.wav using Guid(62173e29b7afe4a4087c6cf7d774be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839f4e5ed54514c90b41d5fd7da7d5c3') in 0.113160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039900 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/078_boss_attack07.wav
-  artifactKey: Guid(ba2b5b5f73098da4383cf8db560fc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/078_boss_attack07.wav using Guid(ba2b5b5f73098da4383cf8db560fc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e821bb9de829391a137223207030f3') in 0.122016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028498 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/044_item_get.wav
-  artifactKey: Guid(dd488ce8db9b3334094c654b58171a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/044_item_get.wav using Guid(dd488ce8db9b3334094c654b58171a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890f9bcff1110d36d58044eb48bd2af2') in 0.330231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/209_power.wav
-  artifactKey: Guid(3d14629f4b3058046af1457c4e2e57ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/209_power.wav using Guid(3d14629f4b3058046af1457c4e2e57ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f208b53289f65938e323d54f8b1d2ff') in 0.108238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001360 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/377_hit_03.wav
-  artifactKey: Guid(598535c4d7ede3e45af99d160cabb9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/377_hit_03.wav using Guid(598535c4d7ede3e45af99d160cabb9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b31f2370fbef00e47e2450e32f2ceb2') in 0.119263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/026_arrow.wav
-  artifactKey: Guid(9c3b89bd7df4106478c5a83332afccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/026_arrow.wav using Guid(9c3b89bd7df4106478c5a83332afccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f917b448ad29b18451c362bc70b4b58') in 0.114681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/028_arrow_hit.wav
-  artifactKey: Guid(774e986f390085c4b866593d6d465de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/028_arrow_hit.wav using Guid(774e986f390085c4b866593d6d465de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bcd946ec1eece61d9ece2ec7c836c2') in 0.128636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/073_boss_attack03.wav
-  artifactKey: Guid(bf9c49ee9a0761b45a8e13ca0068cadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/073_boss_attack03.wav using Guid(bf9c49ee9a0761b45a8e13ca0068cadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fdde2c9c50b986ea1a3d563339d7d3') in 0.138633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/021_damage.wav
-  artifactKey: Guid(7dcbd067a5dfe434cbf578efea435c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/021_damage.wav using Guid(7dcbd067a5dfe434cbf578efea435c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3053046bc51396df19eaf8772aca1') in 0.212039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/376_hit_02.wav
-  artifactKey: Guid(a79a670a5566b4e4e9f38cfe3d7093fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/376_hit_02.wav using Guid(a79a670a5566b4e4e9f38cfe3d7093fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec431cf7a37c658682c61dbcdeaaaf') in 0.174458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/113_move.wav
-  artifactKey: Guid(9234b6f735c8fc840add67eb35f6e715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/113_move.wav using Guid(9234b6f735c8fc840add67eb35f6e715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fd407e83ad842146031e0c1241ef57') in 0.118800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/341_swing_15.wav
-  artifactKey: Guid(231f6a10eeb55454bbc52b1301837ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/341_swing_15.wav using Guid(231f6a10eeb55454bbc52b1301837ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1739c9d1cdf817c4da3a3fb24075400e') in 0.075989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053850 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/041_special_item_get.wav
-  artifactKey: Guid(db154746b0c20534a8a0ac9dafc0e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/041_special_item_get.wav using Guid(db154746b0c20534a8a0ac9dafc0e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4b827047811a25ccd4559885d3cc37') in 0.063664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001071 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/210_full_heal.wav
-  artifactKey: Guid(123b0f8b99a04da42bec0d5fee2870aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/210_full_heal.wav using Guid(123b0f8b99a04da42bec0d5fee2870aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d72e3766abe4d210ec7bbe9aa24a4f0') in 0.108861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/091_boss_attack20.wav
-  artifactKey: Guid(49dbce72153ce304d9253a8cc5e744a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/091_boss_attack20.wav using Guid(49dbce72153ce304d9253a8cc5e744a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d83c43857fd0ce04e27d5d320708f0') in 0.054081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001002 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/349_swing_23.wav
-  artifactKey: Guid(d5d6839bb4533234a99048c64cabe94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/349_swing_23.wav using Guid(d5d6839bb4533234a99048c64cabe94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472e30eba4aa2a1cb614e4b59ef35de7') in 0.121920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/114_door_close.wav
-  artifactKey: Guid(050022fa68855f34e8520835d30ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/114_door_close.wav using Guid(050022fa68855f34e8520835d30ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c260e34c795f00e401e75e1fc017fb6') in 0.100766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.162696 seconds.
-  path: Assets/Sounds/Sounds
-  artifactKey: Guid(f1560806954df004dbf72680cbea937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sounds using Guid(f1560806954df004dbf72680cbea937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b56048dd5d8c53c19af829e7f6697') in 0.038151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.653016 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(1788ce343c2663b4ba0edf89dd14dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(1788ce343c2663b4ba0edf89dd14dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8ef17ebdcc2a71e900581dc467971c') in 1.484189 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.100142 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7311ms)
-		BeginReloadAssembly (339ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (6538ms)
-			LoadAssemblies (226ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (4149ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (157ms)
-			SetupLoadedEditorAssemblies (1570ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (252ms)
-				ProcessInitializeOnLoadAttributes (1077ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (61ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3966.
-Memory consumption went from 138.9 MB to 138.8 MB.
-Total: 6.334400 ms (FindLiveObjects: 0.420900 ms CreateObjectMapping: 0.352100 ms MarkObjects: 5.435000 ms  DeleteObjects: 0.124600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 53.617569 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/395_hit_21.wav
-  artifactKey: Guid(3d23db04c39b98d478e7cf658035a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/395_hit_21.wav using Guid(3d23db04c39b98d478e7cf658035a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fa1abfdbb0c2de621025db9ba0db89') in 0.164584 seconds 
+  path: Assets/LowPolyRPGWeapons_Lite/Prefabs/Dagger_01.prefab
+  artifactKey: Guid(ea816f7cece47574da091aaf86ab56f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Prefabs/Dagger_01.prefab using Guid(ea816f7cece47574da091aaf86ab56f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a92869f07a0caaa2a57b311d1c56fb') in 0.027475 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/392_hit_18.wav
-  artifactKey: Guid(5f9d249fdb78a914392d474978fd99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/392_hit_18.wav using Guid(5f9d249fdb78a914392d474978fd99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496dd765ec48b17e7aa631ed28623ba5') in 0.074551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.012850 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/389_hit_15.wav
-  artifactKey: Guid(7c4807549cf7f624cbd144f826cd3ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/389_hit_15.wav using Guid(7c4807549cf7f624cbd144f826cd3ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946b7070113ea07e0f65424b02b6fe7a') in 0.058538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000927 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/388_hit_14.wav
-  artifactKey: Guid(aed549062c7f91148ad27131496c7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/388_hit_14.wav using Guid(aed549062c7f91148ad27131496c7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a79fe76612e8d0daffdb998b577ba48') in 0.083000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/398_hit_24.wav
-  artifactKey: Guid(66520aeb75fdc7540a44c4beae2eed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/398_hit_24.wav using Guid(66520aeb75fdc7540a44c4beae2eed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9e7bf3f5c960d8ff5f968949c9b0d0') in 0.092365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/380_hit_06.wav
-  artifactKey: Guid(1a0ba283a9b218743a9369afcf28be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/380_hit_06.wav using Guid(1a0ba283a9b218743a9369afcf28be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9619064334d3ef333463d6b4d181ca') in 0.081576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/390_hit_16.wav
-  artifactKey: Guid(e3e4a7c63f5e2f441b428e9e6b246d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/390_hit_16.wav using Guid(e3e4a7c63f5e2f441b428e9e6b246d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e31b4a9e52fb6dd1fd406f456e35b5') in 0.175606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046795 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/391_hit_17.wav
-  artifactKey: Guid(91add4050a0564e40b8267e1eb2fceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/391_hit_17.wav using Guid(91add4050a0564e40b8267e1eb2fceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea7765618301ef295e9d08a203881d2') in 0.074771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006995 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/396_hit_22.wav
-  artifactKey: Guid(3f2270a36879df64fa3ec6f7b3abea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/396_hit_22.wav using Guid(3f2270a36879df64fa3ec6f7b3abea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15926b54ade2b886667935e4b84c6d4') in 0.150246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025085 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/384_hit_10.wav
-  artifactKey: Guid(d43f5938ddba2ac4580cadb03b10f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/384_hit_10.wav using Guid(d43f5938ddba2ac4580cadb03b10f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6633647058ae4d0fdcea5b88b5d1a28d') in 0.085470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Sounds/temp/3D Dot Game Heroes/397_hit_23.wav
-  artifactKey: Guid(74ef7bd9d532a354c9d17c3f7b845610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/temp/3D Dot Game Heroes/397_hit_23.wav using Guid(74ef7bd9d532a354c9d17c3f7b845610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898f81cbece58ad052d129d198cdacc2') in 0.068645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.906852 seconds.
-  path: Assets/Sounds/Music
-  artifactKey: Guid(e036dfbf300b9564eab1cbcedc020b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Music using Guid(e036dfbf300b9564eab1cbcedc020b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f9d52080e400259490baafe348cb15') in 3.029765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.264837 seconds.
-  path: Assets/Sounds/Sounds
-  artifactKey: Guid(e7e6fea194e5e89438b72b930b29af25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sounds using Guid(e7e6fea194e5e89438b72b930b29af25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ffaa88b74317f8fc138db014b4f33e') in 10.395209 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.034124 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 24.162 seconds
-Domain Reload Profiling:
-	ReloadAssembly (24163ms)
-		BeginReloadAssembly (321ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (23556ms)
-			LoadAssemblies (296ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (21815ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (167ms)
-			SetupLoadedEditorAssemblies (1124ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (195ms)
-				ProcessInitializeOnLoadAttributes (747ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (31ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3981.
-Memory consumption went from 138.9 MB to 138.8 MB.
-Total: 6.440600 ms (FindLiveObjects: 0.687400 ms CreateObjectMapping: 0.385700 ms MarkObjects: 5.226300 ms  DeleteObjects: 0.139700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017395 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\oriol\OneDrive\Documentos\3D-GAME-VJ\3D-DOT-GAME-HEROES-VJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.986 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2989ms)
-		BeginReloadAssembly (377ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (2286ms)
-			LoadAssemblies (259ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (736ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (1070ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (216ms)
-				ProcessInitializeOnLoadAttributes (706ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (24ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (125.4 KB). Loaded Objects now: 3996.
-Memory consumption went from 138.9 MB to 138.8 MB.
-Total: 7.819000 ms (FindLiveObjects: 0.605400 ms CreateObjectMapping: 0.441700 ms MarkObjects: 6.496400 ms  DeleteObjects: 0.273600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/LowPolyRPGWeapons_Lite/Prefabs/Shield_01.prefab
+  artifactKey: Guid(637a26567ae08674796cb9ce5c55c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Prefabs/Shield_01.prefab using Guid(637a26567ae08674796cb9ce5c55c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fc2884717df300937f8af4cd980cf4') in 0.037842 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
