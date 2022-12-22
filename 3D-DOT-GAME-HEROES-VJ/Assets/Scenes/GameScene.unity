@@ -5387,6 +5387,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f5c659c3259ad419540341c97d5733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blink: 0
+  inmune: 0
+  inmuneTime: 5
+  blinkTime: 0
+  blinkDuration: 0.2
+  blinkIntensity: 10
 --- !u!65 &2098416947
 BoxCollider:
   m_ObjectHideFlags: 0
