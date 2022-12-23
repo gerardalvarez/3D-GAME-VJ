@@ -356,6 +356,7 @@
 "Assets/Scripts/DamageSystem.cs"
 "Assets/Scripts/enemigo1.cs"
 "Assets/Scripts/Enemy1ia.cs"
+"Assets/Scripts/Enemy2ia.cs"
 "Assets/Scripts/InventoriUI.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PauseMenu.cs"

@@ -15,6 +15,7 @@ public class DamageSystem : MonoBehaviour
     public float blinkTime;
     public float blinkDuration = 2;
     public float blinkIntensity = 10;
+    private Rigidbody rb;
 
 
     // Calcula el vector de dirección reflejado a partir del vector de dirección de la colisión
@@ -28,7 +29,8 @@ public class DamageSystem : MonoBehaviour
         blinkDuration = 0.5f;
         blinkIntensity = 10;
         inmuneTime= 3;
-  
+        rb = GetComponent<Rigidbody>();
+
     }
 
 
@@ -58,7 +60,7 @@ public class DamageSystem : MonoBehaviour
     {
         
         PlayerInventory inventory = GetComponent<PlayerInventory>();
-        if (other.tag == "Enemy1" && !inmune)
+        if ((other.tag == "Enemy1" || other.tag == "Enemy2") && !inmune)
         {
             Debug.Log("daño");
             inventory.perderVida();
@@ -68,5 +70,18 @@ public class DamageSystem : MonoBehaviour
             
 
         }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Calcular la dirección y la magnitud de la fuerza de la colisión
+        Vector3 impulse = collision.impulse / Time.fixedDeltaTime;
+        float magnitude = impulse.magnitude;
+
+        // Aplicar la fuerza de la colisión al objeto utilizando el método AddForce
+        rb.AddForce(-impulse, ForceMode.Impulse);
+       // rb.AddForce(Vector3.down * magnitude, ForceMode.Impulse);
+
+        // Opcionalmente, puedes establecer la propiedad useGravity en false para asegurarte de que el objeto siempre se mantenga pegado al suelo
+        
     }
 }

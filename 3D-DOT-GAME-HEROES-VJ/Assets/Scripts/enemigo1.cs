@@ -19,9 +19,9 @@ public class enemigo1 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Vector3 back = transform.forward * -3;
-            transform.Translate(back, Space.World);
-            Debug.Log("atras");
+           // Vector3 back = transform.forward * -3;
+          //  transform.Translate(back, Space.World);
+           // Debug.Log("atras");
         }
     }
 }
