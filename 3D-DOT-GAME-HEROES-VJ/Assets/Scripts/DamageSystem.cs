@@ -58,9 +58,9 @@ public class DamageSystem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log("pum  ");
         PlayerInventory inventory = GetComponent<PlayerInventory>();
-        if ((other.tag == "Enemy1" || other.tag == "Enemy2") && !inmune)
+        if ((other.tag == "Enemy1" || other.tag == "Enemy2" || other.tag == "disparo") && !inmune)
         {
             Debug.Log("daño");
             inventory.perderVida();
