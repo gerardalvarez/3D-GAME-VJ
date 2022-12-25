@@ -17,6 +17,11 @@ public class enemigo1 : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.tag == "Player")
+        {
+           // Vector3 back = transform.forward * -3;
+          //  transform.Translate(back, Space.World);
+           // Debug.Log("atras");
+        }
     }
 }

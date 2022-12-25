@@ -7,6 +7,9 @@ TagManager:
   - Coin
   - Apple
   - Enemy1
+  - Enemy2
+  - Enemy3
+  - disparo
   layers:
   - Default
   - TransparentFX
