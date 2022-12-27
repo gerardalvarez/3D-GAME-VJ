@@ -49,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         {
             DragObject();
         }
+
+        transform.position= new   Vector3(transform.position.x, 0, transform.position.z);
     }
 
     private bool isTouchingObjectToDrag()

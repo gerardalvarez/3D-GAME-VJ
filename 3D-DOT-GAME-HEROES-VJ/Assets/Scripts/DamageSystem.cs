@@ -70,6 +70,13 @@ public class DamageSystem : MonoBehaviour
             
 
         }
+        if (other.tag == "Enemy4")
+        {
+            inventory.perderVida();
+            inventory.perderVida();
+            blinkTime = blinkDuration;
+            inmune = true;
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
