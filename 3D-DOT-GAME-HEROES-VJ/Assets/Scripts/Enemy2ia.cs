@@ -8,12 +8,18 @@ public class Enemy2ia : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject Target;
-    public float speed = 20;
+    public float speed = 20f;
     private CharacterController characterController;
     private bool attacked;
     private bool justattacked;
     private float attackedTime;
     private float rechargeTime;
+    public float rotationSpeed = 100f;
+
+    private bool iswandering = false;
+    private bool isRotatingLeft = false;
+    private bool isRotatingRight = false;
+    private bool isWalking = false;
     private Rigidbody rb;
     void Start()
     {
@@ -98,6 +104,35 @@ public class Enemy2ia : MonoBehaviour
         // rb.AddForce(Vector3.down * magnitude, ForceMode.Impulse);
 
         // Opcionalmente, puedes establecer la propiedad useGravity en false para asegurarte de que el objeto siempre se mantenga pegado al suelo
+
+    }
+    IEnumerator Wander()
+    {
+        int rotationTime = UnityEngine.Random.Range(1, 3);
+        int rotateWait = UnityEngine.Random.Range(1, 3);
+        int rotarionDirection = UnityEngine.Random.Range(1, 3);
+        int walkWait = UnityEngine.Random.Range(1, 3);
+        int walkTime = UnityEngine.Random.Range(1, 3);
+
+        iswandering = true;
+        yield return new WaitForSeconds(walkWait);
+        isWalking = true;
+        yield return new WaitForSeconds(walkTime);
+        isWalking = false;
+        yield return new WaitForSeconds(rotateWait);
+        if (rotarionDirection == 1)
+        {
+            isRotatingLeft = true;
+            yield return new WaitForSeconds(rotationTime);
+            isRotatingLeft = false;
+        }
+        if (rotarionDirection == 2)
+        {
+            isRotatingRight = true;
+            yield return new WaitForSeconds(rotationTime);
+            isRotatingRight = false;
+        }
+        iswandering = false;
 
     }
 }

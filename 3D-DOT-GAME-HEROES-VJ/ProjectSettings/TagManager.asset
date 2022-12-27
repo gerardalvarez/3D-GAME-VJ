@@ -10,6 +10,7 @@ TagManager:
   - Enemy2
   - Enemy3
   - disparo
+  - Enemy4
   layers:
   - Default
   - TransparentFX
