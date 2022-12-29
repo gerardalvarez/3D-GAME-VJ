@@ -355,6 +355,8 @@
 "Assets/disparo.cs"
 "Assets/enemyia3.cs"
 "Assets/LifeSystem/LifeSystem.cs"
+"Assets/Scripts/Button.cs"
+"Assets/Scripts/CofrePuzzle3.cs"
 "Assets/Scripts/DamageSystem.cs"
 "Assets/Scripts/Disparo.cs"
 "Assets/Scripts/enemigo1.cs"
