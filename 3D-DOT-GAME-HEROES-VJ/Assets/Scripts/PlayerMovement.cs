@@ -35,12 +35,12 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && isTouchingObjectToDrag())
+        if (Input.GetKeyDown(KeyCode.Q) && isTouchingObjectToDrag())
         {
             isDraggingObject = true;
             objectRigidbody = objectToDrag.GetComponent<Rigidbody>();
         }
-        else if (Input.GetKeyUp(KeyCode.E))
+        else if (Input.GetKeyUp(KeyCode.Q ))
         {
             isDraggingObject = false;
         }
