@@ -21,6 +21,7 @@ public class Button : MonoBehaviour
         else if (colorStart == Color.green){
             nextColor = Color.red;
             finalColor = Color.blue;
+            unBlocked = true;
         }
         else{
             nextColor = Color.red;
@@ -50,7 +51,6 @@ public class Button : MonoBehaviour
             else{
                 unBlocked = false;
             }
-            Debug.Log("unblocked: " + unBlocked);
             count ++;
         }
     }
