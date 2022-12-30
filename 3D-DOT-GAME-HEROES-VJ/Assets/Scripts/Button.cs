@@ -10,9 +10,11 @@ public class Button : MonoBehaviour
     private Color finalColor;
     public bool unBlocked = false;
     private int count = 0;
+    private AudioSource audioSource;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         colorStart = GetComponent<Renderer>().material.color;
         if (colorStart == Color.red){
             nextColor = Color.green;
@@ -32,6 +34,7 @@ public class Button : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player")){
+            audioSource.Play();
             switch(count) 
             {
             case 0:

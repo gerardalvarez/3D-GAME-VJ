@@ -35,50 +35,7 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
 
-        if (Input.GetKeyDown(KeyCode.Q) && isTouchingObjectToDrag())
-        {
-            isDraggingObject = true;
-            objectRigidbody = objectToDrag.GetComponent<Rigidbody>();
-        }
-        else if (Input.GetKeyUp(KeyCode.Q ))
-        {
-            isDraggingObject = false;
-        }
-
-        if (isDraggingObject)
-        {
-            DragObject();
-        }
-
         transform.position= new   Vector3(transform.position.x, 0, transform.position.z);
     }
-
-    private bool isTouchingObjectToDrag()
-    {
-        // Comprova si el personatge està tocant un objecte amb el qual col·lisiona pel sostre
-        return characterController.collisionFlags == CollisionFlags.Below;
-    }
-
-    private void DragObject()
-    {
-        // Obte la velocitat del personatge
-        Vector3 playerVelocity = characterController.velocity;
-
-        // Calcula la posicio a la qual s'hauria de moure l'objecte en funcio de la velocitat del personatge
-        Vector3 objectPosition = transform.position + playerVelocity * Time.deltaTime;
-
-        // Manté la coordenada Y de l'objecte constant
-        objectPosition.y = objectToDrag.transform.position.y;
-
-        // Manté la coordenada Y del personatge constant
-        Vector3 playerPosition = transform.position;
-        playerPosition.y = objectToDrag.transform.position.y;
-        transform.position = playerPosition;
-
-        // Mou l'objecte cap a la posicio calculada utilitzant la funcio "MovePosition" del Rigidbody de l'objecte
-        objectRigidbody.MovePosition(objectPosition);
-    }
-
-
 
 }
