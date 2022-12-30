@@ -378,6 +378,7 @@
 "Assets/Scripts/PlayerInventory.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/RotateDoor.cs"
+"Assets/Scripts/RotateDoor2.cs"
 "Assets/Scripts/RotateMenu.cs"
 "Assets/Scripts/RotateObject.cs"
 "Assets/Scripts/ShootBomerang.cs"
