@@ -5,16 +5,25 @@ using UnityEngine;
 public class Boomerang : MonoBehaviour
 {
     public float speed = 10f;
-    public bool shoot = true;
-    
-    public GameObject player;
-    public float tempsViatge = 0.2f;
+    private GameObject Player;
+    public float tempsViatge = 0.1f;
     private float tempsRecorregut = 0f;
     private bool anantEnrere = false;
+    private bool canShoot = true;
+
+    private void Start()
+    {
+        Player = GameObject.FindWithTag("Player");
+        if (Player == null)
+        {
+            Debug.LogError("No s'ha trobat cap objecte amb l'etiqueta 'Player' a l'escena!");
+        }
+    }
 
     private void Update()
     {
-        Vector3 direccio = player.transform.forward;
+        canShoot = false;
+        Vector3 direccio = transform.forward;
         if (!anantEnrere)
         {
             transform.position += direccio * speed * Time.deltaTime;
@@ -26,13 +35,26 @@ public class Boomerang : MonoBehaviour
         }
         else
         {
-            transform.position -= direccio * speed * Time.deltaTime;
+            direccio = (Player.transform.position - transform.position).normalized;
+            transform.position += direccio * speed * Time.deltaTime;
             tempsRecorregut -= Time.deltaTime;
             if (tempsRecorregut <= 0f)
             {
-                shoot = false;
-                Destroy(gameObject);
+                canShoot = true;
+                Destroy(gameObject, 0.025f);
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(!other.CompareTag("Player")){
+            anantEnrere = true;
+        }
+    }
+
+    public bool getcanShoot()
+    {
+        return canShoot;
     }
 }

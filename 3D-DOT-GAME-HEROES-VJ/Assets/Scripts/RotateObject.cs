@@ -6,11 +6,10 @@ public class RotateObject : MonoBehaviour
 {
     public float rotationSpeed = 75.0f;
     private AudioSource audioSource2;
-    public GameObject boomerangObj;
 
     private void Start()
     {
-        audioSource2 = boomerangObj.GetComponent<AudioSource>();
+        audioSource2 = GetComponent<AudioSource>();
     }
     
     // Update is called once per frame
@@ -25,6 +24,7 @@ public class RotateObject : MonoBehaviour
     {
         if(other.CompareTag("Player")){
             audioSource2.Play();
+            Destroy(gameObject, 0.12f);
         }
     }
 }

@@ -11,7 +11,6 @@ public class ShootBomerang : MonoBehaviour
     private bool canShoot;
     private GameObject boomerangThrow;
     private AudioSource audioSource;
-    private AudioSource audioSource2;
 
     private void Start()
     {
@@ -21,12 +20,19 @@ public class ShootBomerang : MonoBehaviour
 
     private void Update()
     {
+        
+        if (boomerangThrow != null)
+        {
+            canShoot = boomerangThrow.GetComponent<Boomerang>().getcanShoot();
+            Debug.Log(canShoot);
+        }
         if (Input.GetKeyDown(KeyCode.E) && canShoot)
         {
             Vector3 posicio = new Vector3(transform.position.x, 17f, transform.position.z);
             Quaternion rotacio = transform.rotation;
             boomerangThrow = Instantiate(boomerang, posicio, rotacio);
             boomerangThrow.GetComponent<Boomerang>().speed = force;
+            canShoot = false;
             audioSource.Play();
         }
     }
@@ -34,7 +40,6 @@ public class ShootBomerang : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("BoomerangObject")){
-            Destroy(boomerangObj);
             canShoot = true;
         }
     }
