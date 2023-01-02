@@ -382,6 +382,7 @@
 "Assets/Scripts/Enemy1ia.cs"
 "Assets/Scripts/Enemy2ia.cs"
 "Assets/Scripts/Enemy4ia.cs"
+"Assets/Scripts/EnemyHit.cs"
 "Assets/Scripts/GetKey1.cs"
 "Assets/Scripts/GetKey2.cs"
 "Assets/Scripts/GetKey3.cs"

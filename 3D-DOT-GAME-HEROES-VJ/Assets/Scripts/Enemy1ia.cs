@@ -15,6 +15,7 @@ public class Enemy1ia : MonoBehaviour
     private bool isRotatingRight = false;
     private bool isWalking = false;
     private Rigidbody rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -55,23 +56,15 @@ public class Enemy1ia : MonoBehaviour
         {
             Vector3 back = transform.forward * -3;
             transform.Translate(back, Space.World);
-            Debug.Log("atras");
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Calcular la dirección y la magnitud de la fuerza de la colisión
         Vector3 impulse = collision.impulse / Time.fixedDeltaTime;
         float magnitude = impulse.magnitude;
-
-        // Aplicar la fuerza de la colisión al objeto utilizando el método AddForce
-       // rb.AddForce(-impulse, ForceMode.Impulse);
-        //rb.AddForce(Vector3.down * magnitude, ForceMode.Impulse);
-
-        // Opcionalmente, puedes establecer la propiedad useGravity en false para asegurarte de que el objeto siempre se mantenga pegado al suelo
-       // rb.useGravity = false;
     }
+    
     IEnumerator Wander()
     {
         int rotationTime = UnityEngine.Random.Range(1, 3);

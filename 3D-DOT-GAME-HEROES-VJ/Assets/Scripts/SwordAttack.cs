@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class SwordAttack : MonoBehaviour
 {
-    //
-    public float rotationAngle = 90.0f; // Angle de rotacio de l'espassa
-    public float unrotationAngle = 0.0f; // Angle de rotacio invers
+    public float rotationAngle = 90.0f; 
+    public float unrotationAngle = 0.0f;
     public bool isAtacking = false; 
-    public float AttackTime = 0.5f; 
+    public float AttackTime = 0.4f; 
     public float MaxXscale = 150.0f;
     public float MaxZscale = 20.0f;  
-
-    // Start is called before the first frame update
+    private bool hitting = false;
+    private int videsPlayer = 5; //TODO: canviar en funcio de les vides
+    
+    
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isAtacking)
@@ -26,12 +26,12 @@ public class SwordAttack : MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle,Vector3.right); 
             transform.rotation = transform.rotation * rotation;
             Vector3 scale = transform.localScale; 
-            scale.y = 50; 
+            
+            scale.y = 20 + 6 * videsPlayer;
             scale.z = 11;
             scale.x = 44; 
             transform.localScale = scale; 
 
-            // Assignar la nova escala a l'objecte
             isAtacking = true; 
             Invoke("UnAttack",AttackTime);
         }        
@@ -39,14 +39,23 @@ public class SwordAttack : MonoBehaviour
 
     void UnAttack()
     {   
-        Debug.Log("Cridant unAttack");
         Quaternion rotation = Quaternion.AngleAxis(-rotationAngle,Vector3.right); 
         transform.rotation = transform.rotation * rotation;
         Vector3 scale = transform.localScale; 
-        scale.y = 11; 
-        scale.x = 11; 
-        scale.z = 11;
+        scale.y = 15; 
+        scale.x = 15; 
+        scale.z = 15;
         transform.localScale = scale; 
         isAtacking = false; 
+    }
+
+    public bool getisAtacking()
+    {
+        return isAtacking;
+    }
+
+    public int getVidesPlayer()
+    {
+        return videsPlayer;
     }
 }
