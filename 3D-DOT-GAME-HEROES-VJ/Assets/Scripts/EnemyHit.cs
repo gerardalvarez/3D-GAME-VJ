@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyHit : MonoBehaviour
 {
     public GameObject Sword;
-    public GameObject Boomerang;
     private int vides = 3;
     private AudioSource audioSource;
     

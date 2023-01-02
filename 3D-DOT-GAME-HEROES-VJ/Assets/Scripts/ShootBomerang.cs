@@ -24,7 +24,6 @@ public class ShootBomerang : MonoBehaviour
         if (boomerangThrow != null)
         {
             canShoot = boomerangThrow.GetComponent<Boomerang>().getcanShoot();
-            Debug.Log(canShoot);
         }
         if (Input.GetKeyDown(KeyCode.E) && canShoot)
         {
