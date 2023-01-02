@@ -21,7 +21,7 @@ public class SwordAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L) && !isAtacking)
+        if (Input.GetKeyDown(KeyCode.Space) && !isAtacking)
         {
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle,Vector3.right); 
             transform.rotation = transform.rotation * rotation;

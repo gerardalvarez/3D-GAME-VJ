@@ -21,7 +21,7 @@ public class ShootBomerang : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && canShoot)
+        if (Input.GetKeyDown(KeyCode.E) && canShoot)
         {
             Vector3 posicio = new Vector3(transform.position.x, 17f, transform.position.z);
             Quaternion rotacio = transform.rotation;
