@@ -10,7 +10,6 @@ public class SwordAttack : MonoBehaviour
     public float AttackTime = 0.4f; 
     public float MaxXscale = 150.0f;
     public float MaxZscale = 20.0f;  
-    private bool hitting = false;
     private int videsPlayer = 5; //TODO: canviar en funcio de les vides
 
     LifeSystem scriptReferencia;
