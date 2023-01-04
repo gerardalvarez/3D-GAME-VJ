@@ -368,6 +368,7 @@
 "Assets/interact.cs"
 "Assets/LevelChanger.cs"
 "Assets/LifeSystem/LifeSystem.cs"
+"Assets/manager.cs"
 "Assets/Scripts/Boomerang.cs"
 "Assets/Scripts/Button.cs"
 "Assets/Scripts/Button2.cs"

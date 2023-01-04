@@ -21,7 +21,7 @@ public class SwordAttack : MonoBehaviour
 
     void Update()
     {
-        videsPlayer = scriptReferencia.life + 1;
+        videsPlayer = LifeSystem.life + 1;
         if (Input.GetKeyDown(KeyCode.Space) && !isAtacking)
         {
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle,Vector3.right); 

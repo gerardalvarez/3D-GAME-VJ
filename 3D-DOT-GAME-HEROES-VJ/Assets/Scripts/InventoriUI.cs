@@ -22,6 +22,6 @@ public class InventoriUI : MonoBehaviour
 
     public void UpdateCoinText(PlayerInventory playerInventory)
     {
-        coinText.text = playerInventory.NumberOfCoins.ToString();
+        coinText.text = PlayerInventory.NumberOfCoins.ToString();
     }
 }

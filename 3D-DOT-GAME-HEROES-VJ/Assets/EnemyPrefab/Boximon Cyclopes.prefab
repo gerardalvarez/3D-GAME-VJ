@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 704488261549853061}
   m_Layer: 0
   m_Name: Boximon Cyclopes
-  m_TagString: Enemigo
+  m_TagString: Enemy1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1129,7 @@ GameObject:
   - component: {fileID: 704488261941440168}
   m_Layer: 0
   m_Name: Boximon Cyclopes
-  m_TagString: Enemigo
+  m_TagString: Enemy1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,7 +1322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 0}
-  Boomerang: {fileID: 0}
 --- !u!1 &704488261960748318
 GameObject:
   m_ObjectHideFlags: 0

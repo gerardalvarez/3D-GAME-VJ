@@ -7,19 +7,20 @@ public class LifeSystem : MonoBehaviour
 {
 
     public GameObject[] apples;
-    public int life;
+    public static int life=2;
     private bool dead;
     // Start is called before the first frame update
     void Start()
-    {
-        life = 2;
-        apples[3].gameObject.SetActive(false);
-        apples[4].gameObject.SetActive(false);
+    {   for(int i=4;i>life;i--)
+        {
+            apples[i].gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if (dead)
         {
             Debug.Log("gameover");
