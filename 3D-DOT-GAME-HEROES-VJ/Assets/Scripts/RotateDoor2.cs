@@ -18,7 +18,7 @@ public class RotateDoor2 : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.O) && unlocked){
+        if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.F) && unlocked){
             canRotate = true;
         }
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.K))

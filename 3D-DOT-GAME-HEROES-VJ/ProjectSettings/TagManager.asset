@@ -21,6 +21,7 @@ TagManager:
   - Sword
   - Door
   - GameManager
+  - Boss
   layers:
   - Default
   - TransparentFX
