@@ -10,16 +10,20 @@ public class PlayerMovement : MonoBehaviour
     public GameObject objectToDrag;
     private Rigidbody objectRigidbody;
     private bool isDraggingObject;
+    
+    public float rayDistance = 20f;
+    private RaycastHit hitInfo;
 
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        
     }
-    public float rayDistance = 20f;
-    private RaycastHit hitInfo;
+    
 
     // Update is called once per frame
+    
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -35,12 +39,15 @@ public class PlayerMovement : MonoBehaviour
         {
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+            
         }
 
         transform.position= new   Vector3(transform.position.x, 0, transform.position.z);
 
         
+
     }
+
 
 
 }

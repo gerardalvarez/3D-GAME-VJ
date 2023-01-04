@@ -12,24 +12,25 @@ public class SwordAttack : MonoBehaviour
     public float MaxZscale = 20.0f;  
     private bool hitting = false;
     private int videsPlayer = 5; //TODO: canviar en funcio de les vides
-    
-    
+
+    LifeSystem scriptReferencia;
     void Start()
     {
-
+        scriptReferencia= GetComponentInParent<LifeSystem>();
     }
 
     void Update()
     {
+        videsPlayer = scriptReferencia.life + 1;
         if (Input.GetKeyDown(KeyCode.Space) && !isAtacking)
         {
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle,Vector3.right); 
             transform.rotation = transform.rotation * rotation;
             Vector3 scale = transform.localScale; 
             
-            scale.y = 20 + 6 * videsPlayer;
+            scale.y = 15 + 7 * videsPlayer;
             scale.z = 11;
-            scale.x = 44; 
+            scale.x = 44 + 3 * videsPlayer; 
             transform.localScale = scale; 
 
             isAtacking = true; 
