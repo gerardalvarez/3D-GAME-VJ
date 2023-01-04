@@ -400,6 +400,8 @@
 "Assets/Scripts/RotateObject.cs"
 "Assets/Scripts/ShootBomerang.cs"
 "Assets/Scripts/SwordAttack.cs"
+"Assets/Seris_Voxel_Characters/Sample_Scene/AnimationTest.cs"
+"Assets/Seris_Voxel_Characters/Sample_Scene/ViewerCamera.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/AnimPlayer.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

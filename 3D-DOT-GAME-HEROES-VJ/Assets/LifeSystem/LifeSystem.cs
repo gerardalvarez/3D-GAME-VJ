@@ -25,6 +25,7 @@ public class LifeSystem : MonoBehaviour
         {
             Debug.Log("gameover");
             SceneManager.LoadScene("Menu");
+            life = 2;
         }
     }
 
