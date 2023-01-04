@@ -24,7 +24,7 @@ public class LifeSystem : MonoBehaviour
         if (dead)
         {
             Debug.Log("gameover");
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("GameOver");
             life = 2;
         }
     }
