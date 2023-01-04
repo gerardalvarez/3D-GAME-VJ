@@ -19,6 +19,7 @@ TagManager:
   - tresor
   - Enemigo
   - Sword
+  - Door
   layers:
   - Default
   - TransparentFX

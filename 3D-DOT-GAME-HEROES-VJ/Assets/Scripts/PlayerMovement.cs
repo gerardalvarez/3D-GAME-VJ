@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
     }
+    public float rayDistance = 20f;
+    private RaycastHit hitInfo;
 
     // Update is called once per frame
     void Update()
@@ -36,6 +38,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.position= new   Vector3(transform.position.x, 0, transform.position.z);
+
+        
     }
 
+
 }
+
+
+
+
+
+    
+
+
