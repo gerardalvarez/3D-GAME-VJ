@@ -111,10 +111,10 @@ public class EnemyHit : MonoBehaviour
         if(vides <= 0)
         {
             Destroy(gameObject, 0.1f);
-            Instantiate(apple, transform.position, transform.rotation);
-            // if (apple != null)
-            // {
-            // }
+             if (apple != null)
+             {
+                Instantiate(apple, transform.position, transform.rotation);
+            }
             
         }
         if (this.gameObject.tag == "Boss" && vides <= 0)

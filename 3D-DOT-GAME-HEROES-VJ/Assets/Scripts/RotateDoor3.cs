@@ -26,6 +26,7 @@ public class RotateDoor3 : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.B))
         {   
             canRotate = true;
+            unlocked= true;
         }
     }
 
