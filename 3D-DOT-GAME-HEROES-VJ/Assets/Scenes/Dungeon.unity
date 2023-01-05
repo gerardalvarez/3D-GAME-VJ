@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2105,6 +2105,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 9119300976249574944, guid: 3f79acc5bab5f2749b6765b0a38fec36, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
     - target: {fileID: 9119300976249574945, guid: 3f79acc5bab5f2749b6765b0a38fec36, type: 3}
       propertyPath: Target
       value: 
@@ -2755,7 +2759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 616ab2054c56e684b9dade4565f2315d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -438
+      value: 295.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 616ab2054c56e684b9dade4565f2315d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2763,7 +2767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 616ab2054c56e684b9dade4565f2315d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 611
+      value: -823.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 616ab2054c56e684b9dade4565f2315d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4796,6 +4800,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 704488261941440168, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
     - target: {fileID: 704488261941440170, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
       propertyPath: Target
       value: 
@@ -10026,7 +10034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 328.22675
+      value: 323
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10034,7 +10042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -455.55228
+      value: -460
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11771,6 +11779,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 704488261941440168, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
     - target: {fileID: 704488261941440170, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
       propertyPath: Target
       value: 
@@ -12130,7 +12142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 245.28732
+      value: 227.9
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12138,7 +12150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -567.71844
+      value: -519.9
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16442,6 +16454,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 2450930364458677909, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 5614299218553369235, guid: 52aca3131dc7103428451ab63e98fb0b, type: 3}
     - target: {fileID: 2450930364458677910, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: Target
       value: 
@@ -20096,6 +20112,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 7080926666933595686, guid: 30a111fd5f9328d4f936ea06ec028991, type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 5614299218553369235, guid: 52aca3131dc7103428451ab63e98fb0b, type: 3}
     - target: {fileID: 7080926666933595688, guid: 30a111fd5f9328d4f936ea06ec028991, type: 3}
       propertyPath: m_Name
       value: TurtleShell (2)
@@ -22586,6 +22606,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 9119300976249574944, guid: 3f79acc5bab5f2749b6765b0a38fec36, type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 5614299218553369235, guid: 52aca3131dc7103428451ab63e98fb0b, type: 3}
     - target: {fileID: 9119300976249574945, guid: 3f79acc5bab5f2749b6765b0a38fec36, type: 3}
       propertyPath: Target
       value: 
@@ -22651,6 +22675,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 704488261941440168, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
     - target: {fileID: 704488261941440170, guid: b19e503199b283e4a9f2e9b0967f13c1, type: 3}
       propertyPath: Target
       value: 
@@ -23423,7 +23451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918484050}
   m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: -443.256, y: 229.4692, z: 534.1323}
+  m_LocalPosition: {x: 289.944, y: 229.46921, z: -900.5677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23679,7 +23707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928936260}
   m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: -443.256, y: 229.4692, z: 534.1323}
+  m_LocalPosition: {x: 289.944, y: 229.46921, z: -900.5677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24660,6 +24688,7 @@ MonoBehaviour:
   blinkIntensity: 10
   door: {fileID: 1934515480}
   apple: {fileID: 0}
+  money: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
 --- !u!114 &1975878597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26203,7 +26232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 229.03787
+      value: 229
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26211,7 +26240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -479.5527
+      value: -404
       objectReference: {fileID: 0}
     - target: {fileID: 2450930364458677905, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26245,6 +26274,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 2450930364458677909, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 3486255263446537240, guid: bad063be6e5a5724c8a8ce8eb3cb4790, type: 3}
     - target: {fileID: 2450930364458677910, guid: b9f34d14e2ad3ab469e9ff26926f9d64, type: 3}
       propertyPath: Target
       value: 

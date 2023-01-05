@@ -15,6 +15,9 @@ public class EnemyHit : MonoBehaviour
     public float blinkIntensity = 10;
     public GameObject door;
     public GameObject apple;
+    public GameObject money;
+    private bool poma = false;
+    private bool moneda = false;
 
     MeshRenderer meshRenderer;
 
@@ -111,17 +114,23 @@ public class EnemyHit : MonoBehaviour
         if(vides <= 0)
         {
             Destroy(gameObject, 0.1f);
-             if (apple != null)
-             {
+            if (apple != null && !poma)
+            {
                 Instantiate(apple, transform.position, transform.rotation);
+                poma = true;
+            }
+            if (money != null && !moneda)
+            {
+                Instantiate(money, transform.position, transform.rotation);
+                moneda = true;
             }
             
         }
         if (this.gameObject.tag == "Boss" && vides <= 0)
         {
-            if (door != null)
+            if (door != null && money != null)
             {
-                Debug.Log("abro");
+                Instantiate(money, transform.position, transform.rotation);
                 door.GetComponent<FinalDoor>().setunLocked(true);
             }
         }
