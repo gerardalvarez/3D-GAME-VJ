@@ -6,6 +6,7 @@ public class GetKey2 : MonoBehaviour
 {
     public GameObject door;
     public GameObject key;
+    public GameObject keycartel;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class GetKey2 : MonoBehaviour
             {
                 door.GetComponent<RotateDoor2>().setunLocked(true);
                 key.SetActive(false);
+                keycartel.SetActive(true);
             }
         }
     }

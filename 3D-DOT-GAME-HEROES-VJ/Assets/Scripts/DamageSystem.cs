@@ -60,7 +60,8 @@ public class DamageSystem : MonoBehaviour
     {
         Debug.Log("pum  ");
         PlayerInventory inventory = GetComponent<PlayerInventory>();
-        if ((other.tag == "Enemy1" || other.tag == "Enemy2" || other.tag == "disparo") && !inmune)
+        LifeSystem l =GetComponent<LifeSystem>();
+        if ((other.tag == "Enemy1" || other.tag == "Enemy2" || other.tag == "disparo") && !inmune && !l.invulnerable)
         {
             Debug.Log("daño");
             inventory.perderVida();
@@ -70,7 +71,7 @@ public class DamageSystem : MonoBehaviour
             
 
         }
-        if (other.tag == "Enemy4")
+        if (other.tag == "Enemy4" && !inmune && !l.invulnerable)
         {
             inventory.perderVida();
             inventory.perderVida();

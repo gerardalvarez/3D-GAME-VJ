@@ -8,13 +8,18 @@ public class PlayerInventory : MonoBehaviour
 
     public static int NumberOfCoins = 0;
     private int vidas = 3;
+    public GameObject[] keys;
 
     public UnityEvent<PlayerInventory> oncoinCollected;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        for (int i = 2; i >= 0; i--)
+        {
+           keys[i].gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame

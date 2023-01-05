@@ -11,11 +11,12 @@ public class ShootBomerang : MonoBehaviour
     private bool canShoot;
     private GameObject boomerangThrow;
     private AudioSource audioSource;
-
+    public GameObject boomerangcartel;
     private void Start()
     {
         audioSource = boomerang.GetComponent<AudioSource>();
         canShoot = false;
+        boomerangcartel.SetActive(false);
     }
 
     private void Update()
@@ -40,6 +41,7 @@ public class ShootBomerang : MonoBehaviour
     {
         if(other.CompareTag("BoomerangObject")){
             canShoot = true;
+            boomerangcartel.SetActive(true);
         }
     }
 }

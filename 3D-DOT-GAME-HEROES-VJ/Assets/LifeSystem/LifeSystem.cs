@@ -9,13 +9,16 @@ public class LifeSystem : MonoBehaviour
     public GameObject[] apples;
     public static int life=2;
     private bool dead;
+    public bool invulnerable=false;
+    public GameObject cartel;
     // Start is called before the first frame update
     void Start()
     {   for(int i=4;i>life;i--)
         {
             apples[i].gameObject.SetActive(false);
         }
-    }
+     invulnerable = false;
+}
 
     // Update is called once per frame
     void Update()
@@ -26,6 +29,11 @@ public class LifeSystem : MonoBehaviour
             Debug.Log("gameover");
             SceneManager.LoadScene("GameOver");
             life = 2;
+        }
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            invulnerable= !invulnerable;
+            cartel.SetActive(invulnerable);
         }
     }
 
