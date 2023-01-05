@@ -10,10 +10,12 @@ public class RotateDoor2 : MonoBehaviour
     private bool canRotate = false;
     private AudioSource audioSource;
     private bool unlocked = false;
+    public GameObject aviso2;
 
     void Start()
     {
         audioSource = door.GetComponent<AudioSource>();
+        aviso2.SetActive(false);
     }
 
     private void OnTriggerStay(Collider other)
@@ -26,6 +28,26 @@ public class RotateDoor2 : MonoBehaviour
             canRotate = true;
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Si el trigger es la puerta, muestra el mensaje
+        if (other.tag == "Player")
+        {
+            aviso2.SetActive(true);
+
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        // Si el trigger es la puerta, muestra el mensaje
+        if (other.tag == "Player")
+        {
+            aviso2.SetActive(false);
+        }
+    }
+
 
     void Update()
     {
