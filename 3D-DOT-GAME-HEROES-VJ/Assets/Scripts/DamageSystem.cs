@@ -18,7 +18,7 @@ public class DamageSystem : MonoBehaviour
     private Rigidbody rb;
 
 
-    // Calcula el vector de dirección reflejado a partir del vector de dirección de la colisión
+    // Calcula el vector de direcciï¿½n reflejado a partir del vector de direcciï¿½n de la colisiï¿½n
     Vector3 reflectedDirection;
 
     MeshRenderer meshRenderer;
@@ -63,7 +63,7 @@ public class DamageSystem : MonoBehaviour
         LifeSystem l =GetComponent<LifeSystem>();
         if ((other.tag == "Enemy1" || other.tag == "Enemy2" || other.tag == "disparo") && !inmune && !l.invulnerable)
         {
-            Debug.Log("daño");
+            Debug.Log("dany");
             inventory.perderVida();
 
             blinkTime = blinkDuration;
@@ -78,14 +78,21 @@ public class DamageSystem : MonoBehaviour
             blinkTime = blinkDuration;
             inmune = true;
         }
+        if (other.tag == "Boss" && !inmune && !l.invulnerable)
+        {
+            Debug.Log("boss hits player");
+            inventory.perderVida();
+            blinkTime = blinkDuration;
+            inmune = true;
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
-        // Calcular la dirección y la magnitud de la fuerza de la colisión
+        // Calcular la direcciï¿½n y la magnitud de la fuerza de la colisiï¿½n
         Vector3 impulse = collision.impulse / Time.fixedDeltaTime;
         float magnitude = impulse.magnitude;
 
-        // Aplicar la fuerza de la colisión al objeto utilizando el método AddForce
+        // Aplicar la fuerza de la colisiï¿½n al objeto utilizando el mï¿½todo AddForce
         rb.AddForce(-impulse, ForceMode.Impulse);
        // rb.AddForce(Vector3.down * magnitude, ForceMode.Impulse);
 
