@@ -32,7 +32,7 @@ public class RotateDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Si el trigger es la puerta, muestra el mensaje
-        if (other.tag == "Player")
+        if (other.tag == "Player" && !unlocked)
         {
             aviso.SetActive(true);
 
@@ -42,7 +42,7 @@ public class RotateDoor : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         // Si el trigger es la puerta, muestra el mensaje
-        if (other.tag == "Player")
+        if (other.tag == "Player" )
         {
             aviso.SetActive(false);
         }

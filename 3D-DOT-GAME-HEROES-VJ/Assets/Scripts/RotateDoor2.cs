@@ -32,7 +32,7 @@ public class RotateDoor2 : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Si el trigger es la puerta, muestra el mensaje
-        if (other.tag == "Player")
+        if (other.tag == "Player" && !unlocked)
         {
             aviso2.SetActive(true);
 
