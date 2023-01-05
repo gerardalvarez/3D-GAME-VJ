@@ -14,6 +14,7 @@ public class EnemyHit : MonoBehaviour
     public float blinkDuration = 2;
     public float blinkIntensity = 10;
     public GameObject door;
+    public GameObject apple;
 
     MeshRenderer meshRenderer;
 
@@ -110,6 +111,11 @@ public class EnemyHit : MonoBehaviour
         if(vides <= 0)
         {
             Destroy(gameObject, 0.1f);
+            Instantiate(apple, transform.position, transform.rotation);
+            // if (apple != null)
+            // {
+            // }
+            
         }
         if (this.gameObject.tag == "Boss" && vides <= 0)
         {

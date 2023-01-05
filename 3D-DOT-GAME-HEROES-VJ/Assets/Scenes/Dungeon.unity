@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2920,7 +2920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 80
-  rotationSpeed: 700
+  rotationSpeed: 2300
   objectToDrag: {fileID: 1250550512}
   rayDistance: 2
 --- !u!95 &251969117
@@ -22926,6 +22926,10 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 1527599932}
+    - target: {fileID: 7080926666933595686, guid: 30a111fd5f9328d4f936ea06ec028991, type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 5614299218553369235, guid: 52aca3131dc7103428451ab63e98fb0b, type: 3}
     - target: {fileID: 7080926666933595688, guid: 30a111fd5f9328d4f936ea06ec028991, type: 3}
       propertyPath: m_Name
       value: TurtleShell
@@ -24642,6 +24646,22 @@ MonoBehaviour:
   blinkDuration: 2
   blinkIntensity: 10
   door: {fileID: 1934515480}
+  apple: {fileID: 0}
+--- !u!114 &1975878600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975878590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3242fd70992a154d90d69e0ef54b66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 251969109}
+  speed: 20
+  rotationSpeed: 100
 --- !u!4 &1982443201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6101854816271959842, guid: 31ad388ab9cf06a4c9d097678e8bcf58, type: 3}

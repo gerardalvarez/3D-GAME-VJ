@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2669,6 +2669,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &569976698
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3927,6 +3934,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &890364475
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5381,6 +5395,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &1021870684
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6642,6 +6663,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &1315383949
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9607,6 +9635,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &2024651593
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9983,7 +10018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 80
-  rotationSpeed: 700
+  rotationSpeed: 2300
   objectToDrag: {fileID: 0}
   rayDistance: 2
 --- !u!4 &2098416941 stripped
@@ -10676,6 +10711,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 755226375}
+  blink: 0
+  inmune: 0
+  inmuneTime: 0
+  blinkTime: 0
+  blinkDuration: 2
+  blinkIntensity: 10
+  door: {fileID: 0}
 --- !u!82 &95782878568388646
 AudioSource:
   m_ObjectHideFlags: 0
