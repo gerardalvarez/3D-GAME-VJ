@@ -18,11 +18,11 @@ public class BossIA : MonoBehaviour
     private Animator anim;
     bool walking = false;
     public GameObject door;
-    bool despierto=false;
+    bool despierto = false;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        anim= GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         if (door != null)
         {
             despierto = door.GetComponent<RotateDoor3>().getunLocked();
